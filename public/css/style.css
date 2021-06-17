@@ -1,0 +1,86 @@
+@charset "utf-8";
+.bg_test{
+    padding-top :170px;
+    color: #ffffff;
+    background-image: url("../../images/questionares.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.bg_test2{
+    padding-top: 50px;
+    color: #ffffff;
+    background-image: url("../../images/login2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.bg_test3{
+    padding-top: 30px;
+    background-image: url("../../images/newlogin.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.create_answer{
+    background-image: url("../../images/all.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.answer-button{
+    padding-top: 200px;
+}
+.history-button{
+    padding-top: 100px;
+    padding: 100px;
+}
+.btn_answer{
+    padding: 120px;
+}
+.btn_create{
+    padding: 120px;
+}
+.btn_history{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.index_page{
+    background-image: url("../../images/all2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.create_page{
+    background-image: url("../../images/all2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.create2_page{
+    background-image: url("../../images/all2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.history_page{
+    background-image: url("../../images/all2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.btn_answersubmit{
+     margin-top: 100px;
+}
+.answer_page{
+    background-image: url("../../images/all2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.result_page{
+    background-image: url("../../images/all2.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}

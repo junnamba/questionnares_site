@@ -9,22 +9,18 @@
 <h3>アンケート名 : {{$question->content}}</h3>
 </p>
 {{-- 質問（choices）を1つずつ表示していく --}}
-<ul>
-@foreach ($question->choices as $choice)
-<ul style="list-style: none;">
-    <h4><li>{{$choice->question_text}}</li></h4>
-</ul>
-    {{-- セレクトボックスの作成 --}}
 
+
+@foreach ($question->choices as $choice)
+ <h4>{{$choice->question_text}}</h4>
+    {{-- セレクトボックスの作成 --}}
     <select class="form-control" name="multiple_id[]">
     @foreach ($choice->multiples as $multiple)
-     <h3><option value="{{ $multiple->id }}">{{ $multiple->choice_text }}</option></h3>
+     <option value="{{ $multiple->id }}">{{ $multiple->choice_text }}</option>
     @endforeach
     </select>
-</div>
-    
 @endforeach
-</ul>
+</div>
 <div class="text-center">
     <span>
  <button type="submit" name="btn" value="storeanswers" class="btn_answersubmit btn-secondary btn-lg">回答を送信する</button>
